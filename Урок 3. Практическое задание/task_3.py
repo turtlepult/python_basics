@@ -6,8 +6,10 @@ phone_number = input("Введите ваш номер телефона: ")
 
 
 def information_by_people(name, birthday, city, email, phonenumber):
+
     print(f"{name} {birthday} года рождения, проживает в городе {city}, "
           f"email: {email}, телефон: {phonenumber}")
 
 
-information_by_people(user_name, birth_day, user_city, user_email, phone_number)
+information_by_people(name =user_name , birthday=birth_day , city=user_city,
+                      email=user_email, phonenumber=phone_number)
