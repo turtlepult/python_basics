@@ -11,7 +11,6 @@ def parity_counter(num, count):
     else:
         return parity_counter(num, count)
 
-
 counter = [0] * 2
 user_number = int(input("Введите число:"))
 parity_counter(user_number, counter)

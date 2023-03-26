@@ -7,7 +7,6 @@ def sum(a, b):
         b -= 1
         return sum(a, b)
 
-
 a = int(input("a: "))
 b = int(input("b: "))
 sum(a, b)

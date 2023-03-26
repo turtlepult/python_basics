@@ -29,5 +29,4 @@ def calc():
         print("Вы ввели не верную операцию!!!")
         return calc()
 
-
 calc()

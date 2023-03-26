@@ -1,6 +1,4 @@
 from random import randint
-
-
 def game_random(rand, count=1):
     user_guess = int(input(f"Попытка {count}/10 введите число: "))
     if user_guess == rand:
