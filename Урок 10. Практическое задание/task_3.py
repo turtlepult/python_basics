@@ -9,3 +9,11 @@
 --- обязательно!!! усложните задачу, "отловив" исключение,
 придумайте как это сделать
 """
+main_list = ["attribute", "класс", "функция", "type"]
+for i in main_list:
+
+    try:
+        print(i, bytes(i, encoding='ASCII'))
+    except UnicodeEncodeError:
+        print(f"\"{i}\" невозможно преобразовать")
+    print()

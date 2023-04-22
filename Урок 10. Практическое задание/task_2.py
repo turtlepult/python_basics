@@ -10,3 +10,12 @@
 --- b'class' - используйте маркировку b''
 --- используйте списки и циклы, не дублируйте функции
 """
+main_list = ["class", "function", "method"]
+for i in main_list:
+    temp_list = []
+    temp_list.append(bytes(i, "utf-8"))
+
+    print(temp_list, len(bytes(i, "utf-8")))
+
+
+
